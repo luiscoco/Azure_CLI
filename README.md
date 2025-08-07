@@ -25,3 +25,12 @@ winget uninstall --id Microsoft.AzureCLI
 ```
 
 <img width="620" height="105" alt="image" src="https://github.com/user-attachments/assets/89f4ff84-8f36-4b9b-9add-b2a30100bcd7" />
+
+After installing Azure CLI run this command to validate the installation and view the version
+
+```
+az --version
+```
+
+<img width="992" height="463" alt="image" src="https://github.com/user-attachments/assets/9b729d58-3d7b-4c06-8409-2b19a126630a" />
+
