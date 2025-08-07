@@ -1,6 +1,6 @@
 # How to install Azure CLI
 
-To install Azure CLI follow the instructions in this web page:
+To **Install Azure CLI** follow the instructions in this web page:
 
 https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows (English version)
 
@@ -16,9 +16,12 @@ Then we execute this command to install Azure CLI:
 winget install --id Microsoft.AzureCLI
 ```
 
-If you prefer to Uninstall a previous Azure CLI version, please run this command:
+<img width="999" height="303" alt="image" src="https://github.com/user-attachments/assets/2635cfea-c6ff-4a47-991b-d367f3ee301f" />
+
+If you prefer to **Uninstall** a previous **Azure CLI** version, please run this command:
 
 ```
 winget uninstall --id Microsoft.AzureCLI
 ```
 
+<img width="620" height="105" alt="image" src="https://github.com/user-attachments/assets/89f4ff84-8f36-4b9b-9add-b2a30100bcd7" />
