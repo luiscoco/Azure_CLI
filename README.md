@@ -132,34 +132,40 @@ Create a storage account:
 az storage account create --name mystorageaccount --resource-group MyResourceGroup --location eastus --sku Standard_LRS
 ```
 
-### 4.4. App Services 
-🔹 List app services:
-bash
-Copiar
-Editar
+### 4.5. App Services Commands
+
+List app services:
+
+```bash
 az webapp list --output table
-🔹 Create a web app:
-bash
-Copiar
-Editar
+```
+
+Create a web app
+
+```bash
 az webapp create --resource-group MyResourceGroup --plan MyAppServicePlan --name MyUniqueAppName --runtime "DOTNET|6.0"
-🔐 Azure Key Vault
-🔹 List all key vaults:
-bash
-Copiar
-Editar
+```
+
+### 4.6. Azure Key Vault Commands
+
+List all key vaults:
+
+```bash
 az keyvault list --output table
-🔹 Get a secret from Key Vault:
-bash
-Copiar
-Editar
+```
+
+Get a secret from Key Vault:
+
+```bash
 az keyvault secret show --vault-name MyVault --name MySecret
-📋 General Notes
+```
+
+### 4.7. General Notes
+
 Add --output table, --output json, or --output yaml to control output formatting.
 
 Use az find "<command>" to discover examples, e.g.:
 
-bash
-Copiar
-Editar
+```bash
 az find "az vm"
+```
