@@ -20,6 +20,10 @@ winget install --id Microsoft.AzureCLI
 
 <img width="999" height="303" alt="image" src="https://github.com/user-attachments/assets/2635cfea-c6ff-4a47-991b-d367f3ee301f" />
 
+We can also download Azure CLI from this link and install the downloaded application:
+
+https://aka.ms/installazurecliwindows
+
 ## 2. How to UnInstall Azure CLI
 
 If you prefer to **Uninstall** a previous **Azure CLI** version, please run this command:
