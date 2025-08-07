@@ -16,3 +16,9 @@ Then we execute this command to install Azure CLI:
 winget install --id Microsoft.AzureCLI
 ```
 
+If you prefer to Uninstall a previous Azure CLI version, please run this command:
+
+```
+winget uninstall --id Microsoft.AzureCLI
+```
+
